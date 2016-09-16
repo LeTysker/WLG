@@ -1,0 +1,107 @@
+html {
+	background-color: white;
+	font-family: 'Comic Sans MS';
+	font-size: 14px;
+	
+}
+
+body {
+	background: white;
+	
+}
+
+#content {
+	
+	/*
+	background: #FFFF88;
+	box-shadow: -4px 4px rgba(0,0,0,0.24);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	*/
+	
+	width: 350px;
+	height: 70%;
+	
+	position: absolute;
+	margin-top: 65%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+	
+}
+
+#header {
+	padding-top: 20px;
+	margin-left: 15px;
+	
+	display: inline-block;
+}
+
+#wishlist {
+	display: none;
+	width: 300px;
+}
+
+#loadingtext {
+	position: absolute;
+  top: 15%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#loading {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#topdiv {
+	height: 30%;
+}
+
+#bottomdiv {
+	height: 70%;
+}
+
+.item {
+	margin: 10px 0 5px 5px;
+}
+
+#generatebutton {
+	margin-top: 20%;
+	
+	margin-left: 30%;
+	
+	background: #FBF599;
+	
+	border: solid #FBF599 2px;
+	box-shadow: 0 1px 3px #666666;
+	
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	
+	font-family: 'Comic Sans MS';
+	font-size: 14px;
+}
+
+.box {
+	box-sizing: border-box;
+  width: 50%;
+  display: inline;
+	/*float: left;*/
+}
+
+#topdiv {
+	height: 20%;
+}
+
+li {
+	margin-bottom: 10px;
+}
