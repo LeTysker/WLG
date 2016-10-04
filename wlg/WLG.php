@@ -18,7 +18,7 @@
           </div>
           
           <div id="wishlist">
-            <div ="topdiv">
+            <div id="topdiv">
               <div class="box">
                 <h2 id="header">Wish List</h2>
               </div>

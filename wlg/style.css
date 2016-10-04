@@ -20,21 +20,16 @@ body {
 	*/
 	
 	width: 350px;
-	height: 70%;
+	height: 140%;
 	
 	position: absolute;
-	margin-top: 65%;
+	margin-top: 120%;
+	margin-bottom: 20px;
+	
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
 	
-}
-
-#header {
-	padding-top: 20px;
-	margin-left: 15px;
-	
-	display: inline-block;
 }
 
 #wishlist {
@@ -52,26 +47,31 @@ body {
 
 #loading {
 	position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
 
 #topdiv {
-	height: 30%;
 }
 
 #bottomdiv {
-	height: 70%;
 }
 
 .item {
-	margin: 10px 0 5px 5px;
+	margin: 0px 0px 10px 0px;
+}
+
+#header {
+	/*padding-top: 20px;*/
+	margin-left: 15px;
+	
+	display: inline-block;
 }
 
 #generatebutton {
-	margin-top: 20%;
+	/*margin-top: 20%;*/
 	
 	margin-left: 30%;
 	
@@ -89,6 +89,12 @@ body {
 	
 	font-family: 'Comic Sans MS';
 	font-size: 14px;
+	
+	outline: none;
+}
+
+#generatebutton:active {
+	background: #FAE599;
 }
 
 .box {
@@ -96,10 +102,6 @@ body {
   width: 50%;
   display: inline;
 	/*float: left;*/
-}
-
-#topdiv {
-	height: 20%;
 }
 
 li {
